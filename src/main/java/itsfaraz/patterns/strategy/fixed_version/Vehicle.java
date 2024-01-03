@@ -8,4 +8,7 @@ public class Vehicle {
         this.vehicleStrategy = vehicleStrategy;
     }
 
+    public void drive(){
+        vehicleStrategy.drive();
+    }
 }
