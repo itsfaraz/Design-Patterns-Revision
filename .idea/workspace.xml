@@ -4,16 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5c72987-1c43-439c-bd8b-9754dbe9f8fa" name="Changes" comment="dp:- Strategy Design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/observer/restaurant/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/observer/restaurant/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/observer/restaurant/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/observer/restaurant/protocols/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/observer/restaurant/protocols/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="b5c72987-1c43-439c-bd8b-9754dbe9f8fa" name="Changes" comment="dp:- Observable Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/decorator/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/decorator/Ketchup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/decorator/Margerita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/decorator/VegDelight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/decorator/protocols/BasePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/decorator/protocols/Toppings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/abstractfactory/FactoryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/abstractfactory/LuxuryVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/abstractfactory/OrdinaryVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/abstractfactory/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/abstractfactory/protocols/FrameFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/abstractfactory/protocols/LuxuryVehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/abstractfactory/protocols/OrdinaryVehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/abstractfactory/protocols/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/abstractfactory/protocols/VehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/simple/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/simple/shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/simple/shapes/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/simple/shapes/ShapeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/simple/shapes/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/factory/simple/shapes/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/itsfaraz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/strategy/fixed_version/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itsfaraz/patterns/strategy/fixed_version/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -52,25 +67,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/HandsOn/Software-Design/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/HandsOn/Software-Design/src/main/java/itsfaraz/patterns/factory/abstract/vehicle",
+    "onboarding.tips.debug.path": "D:/HandsOn/Software-Design/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="itsfaraz.patterns.observer.restaurant" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HandsOn\Software-Design\src\main\java\itsfaraz\patterns\factory" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\HandsOn\Software-Design\src\main\java\itsfaraz\patterns\strategy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="itsfaraz.patterns.strategy.fixed_version" />
-      <recent name="itsfaraz.patterns.strategy.problem_version" />
+      <recent name="itsfaraz.patterns.factory.abstractfactory" />
+      <recent name="itsfaraz.patterns.factory" />
+      <recent name="itsfaraz.patterns.factory.abstractfactory.protocols" />
+      <recent name="itsfaraz.patterns.decorator" />
+      <recent name="itsfaraz.patterns.factory.shapes" />
     </key>
   </component>
   <component name="RunManager">
@@ -110,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704218488475</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dp:- Observable Design Pattern">
+      <option name="closed" value="true" />
+      <created>1704326253891</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704326253891</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dp:- Strategy Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp:- Strategy Design Pattern" />
+    <MESSAGE value="dp:- Observable Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp:- Observable Design Pattern" />
   </component>
 </project>
